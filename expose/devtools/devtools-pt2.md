@@ -1,0 +1,2 @@
+1. The bug is that user inputs never get converted to integer before adding them together in calculateSum function. Therefore, the result is simply the concatenation of two input value.
+2. In order to fix the bug, we just have to forcifully convert two user inputs into integer by applying Number().
